@@ -111,7 +111,6 @@ print(winning_candidate_summary)
     #txt_file.write("Arapahoe, ")
     #txt_file.write("Denver, ")
     #txt_file.write("Jefferson")
-
     # Write three counties to the file.
     #txt_file.write("Counties in the Election\n-------------------------\nArapahoe\nDenver\nJefferson")
 
