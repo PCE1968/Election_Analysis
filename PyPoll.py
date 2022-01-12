@@ -16,10 +16,20 @@ file_to_save = os.path.join("analysis", "election_analysis.txt")
 with open(file_to_load) as election_data:
 
     # to do: perform analysis.
-    print(election_data)
+    #print(election_data)
+    file_reader = csv.reader(election_data)
+
+    #Print each row in the CSV file.
+    #for row in file_reader:
+     #   print(row)
+
+     # Print the header row.
+    headers = next(file_reader)
+    print(headers)
+
 
 # Using the open() function with the "w" mode we will write data to teh file
-with open(file_to_save, "w") as txt_file:
+#with open(file_to_save, "w") as txt_file:
 #write some data to the file.
 #outfile.write("Hello World")
 
@@ -29,7 +39,7 @@ with open(file_to_save, "w") as txt_file:
     #txt_file.write("Jefferson")
 
     # Write three counties to the file.
-    txt_file.write("Counties in the Election\n-------------------------\nArapahoe\nDenver\nJefferson")
+    #txt_file.write("Counties in the Election\n-------------------------\nArapahoe\nDenver\nJefferson")
 
 # Close the file
-txt_file.close()
+#txt_file.close()
