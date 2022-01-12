@@ -107,7 +107,10 @@ with open(file_to_save, "w") as txt_file:
         f"Winning Vote Count: {winning_count: ,}\n"
         f"Winning Percentage: {winning_percentage: .1f}%\n"
         f"-------------------------\n")
-    #print(winning_candidate_summary)
+    print(winning_candidate_summary)
+
+    # Save the winning candidate's results to the text file.
+    txt_file.write(winning_candidate_summary)
 
     # Print the candidate list
     #print(candidate_options)
