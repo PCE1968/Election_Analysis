@@ -7,8 +7,14 @@
 import csv
 import os
 
+election_results_path = input("Please enter the path to the directory that holds your election data file ")
+election_path_file = input("Please enter the file name and extension ")
+file_to_load = os.path.join(election_results_path, election_path_file)
+print(file_to_load)
+
+
 #Assign a variable for the file to load and the path.
-file_to_load = os.path.join("Resources", "election_results.csv")
+#file_to_load = os.path.join("Resources", "election_results.csv")
 # creat a filename variable to a direct or indirect path to the file.
 file_to_save = os.path.join("analysis", "election_analysis.txt")
 
@@ -32,8 +38,6 @@ with open(file_to_load) as election_data:
     # to do: perform analysis.
     #print(election_data)
     file_reader = csv.reader(election_data)
-
-
 
      # Print the header row.
     headers = next(file_reader)
