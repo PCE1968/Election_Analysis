@@ -39,10 +39,9 @@ with open(file_to_load) as election_data:
     headers = next(file_reader)
     #print(headers)
 
+    # Added loop to determine index for candidate data
     for i in range(len(headers)):
-        #if headers[i] == "County":
-         #   county_index = i
-        
+           
         if headers[i] == "Candidate":
             candidate_index = i
 
