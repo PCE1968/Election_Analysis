@@ -17,7 +17,7 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 - Data Source: election_results.csv
 - Software: Pythin 3.9.7, Visual Studio Code, 1.63.2
 
-### Summary
+### Election Audit Results
 The analysis of the election show that:
 - There were 369,711 votes cast in the election.
 - The county turnout results were:
