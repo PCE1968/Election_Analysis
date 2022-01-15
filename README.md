@@ -36,4 +36,14 @@ The analysis of the election show that:
  ## Election Audit Summary
 The code runs well as is, but is limited to the current folder path for the resource folder and the current column order of the .csv file. A potenital solution for the first issue could look something like this:
 
-![Prompt the user for folder location and file name]("Resources\User_input_solution.png)
+![Prompt the user for folder location and file name](Resources/User_input_solution.png)
+
+This code prompts the user to provide the path to the folder and the file name that holds the election results.
+
+A potential solution for the .csv file column order could look like this:
+
+![Filter the header to determine the correct index for the county and candidate data in the .csv](Resources/Dynamic_header_filter)
+
+This set of filters will identify the correct index for the county and candidate columns, allowing for files whos columns may be in a different order.
+
+Both of these solutions will make the code more dynamic and able to be useful for other election audits.
