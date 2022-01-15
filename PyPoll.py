@@ -39,6 +39,14 @@ with open(file_to_load) as election_data:
     headers = next(file_reader)
     #print(headers)
 
+    for i in range(len(headers)):
+        #if headers[i] == "County":
+         #   county_index = i
+        
+        if headers[i] == "Candidate":
+            candidate_index = i
+
+
     #Print each row in the CSV file.
     for row in file_reader:
         #print(row)
@@ -46,7 +54,7 @@ with open(file_to_load) as election_data:
         total_votes += 1
  
         # Print the candidate name from each row
-        candidate_name = row[2]
+        candidate_name = row[candidate_index]
         
         # Add if statement to find unique candidate names
         if candidate_name not in candidate_options:
@@ -67,7 +75,7 @@ with open(file_to_save, "w") as txt_file:
         f"\nElection Results\n"
         f"-------------------------\n"
         f"Total Votes: {total_votes:,}\n"
-        f"--------------------\n")
+        f"-------------------------\n")
     print(election_results, end="")
     # Save the final vote count to the text file.
     txt_file.write(election_results)
