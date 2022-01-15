@@ -42,7 +42,7 @@ This code prompts the user to provide the path to the folder and the file name t
 
 A potential solution for the .csv file column order could look like this:
 
-![Filter the header to determine the correct index for the county and candidate data in the .csv](Resources/Dynamic_header_filter)
+![Filter the header to determine the correct index for the county and candidate data in the .csv](Resources/Dynamic_header_filter.png)
 
 This set of filters will identify the correct index for the county and candidate columns, allowing for files whos columns may be in a different order.
 
