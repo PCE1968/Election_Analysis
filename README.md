@@ -34,4 +34,6 @@ The analysis of the election show that:
     - Diane DeGette received 73.8% of the vote and 272,892 votes.
 
  ## Election Audit Summary
+The code runs well as is, but is limited to the current folder path for the resource folder and the current column order of the .csv file. A potenital solution for the first issue could look something like this:
 
+![Prompt the user for folder location and file name]("Resources\User_input_solution.png)
