@@ -34,7 +34,7 @@ The analysis of the election show that:
     - Diane DeGette received 73.8% of the vote with 272,892 votes.
 
  ## Election Audit Summary
-The results demonstrate that all of the requirements have been met. The total votes have been tabulated. The county turnout has been recorded for total votes cast and the percentage of total vote for each county. The candidate votes have also been tabulated and considered by percentage of total vote, and the election winner has been identified. Even though this code runs well as is, there are limitations. Any future election results will need to be added to the same folder and the file name will need to match, otherwise the code will not run correctly. In addition, the file structure will also need to match the current column order of the .csv file. 
+The results demonstrate that all of the requirements have been met. The total votes have been tabulated. The county turnout has been recorded for total votes cast and the percentage of total vote for each county. The candidate votes have also been tabulated and considered by percentage of total vote, and the election winner has been identified. Even though this code runs well as is, there are limitations. Any future election results will need to be added to the same folder and the file name will need to match. In addition, the file structure will also need to match the current column order of the .csv file, otherwise the code will not run correctly.
 
 ### Modification Options
 When considering file location as a limitation, a potenital solution could look something like this:
