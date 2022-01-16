@@ -36,16 +36,19 @@ The analysis of the election show that:
  ## Election Audit Summary
 The results demonstrate that all of the requirements have been met. The total votes have been tabulated. The county turnout has been recorded for total votes cast and the percentage of total vote for each county. The candidate votes have also been tabulated and considered by percentage of total vote, and the election winner has been identified. Even though this code runs well as is, there are limitations. Any future election results will need to be added to teh same folder and the file name will need to match, in order for it to run on other election results. In addition, the file structure will also need to match the current column order of the .csv file. 
 
-When considering file location as a limitation,  potenital solution could look something like this:
+### Modification Options
+When considering file location as a limitation, a potenital solution could look something like this:
 
 ![Prompt the user for folder location and file name](Resources/User_input_solution.png)
 
 This code prompts the user to provide the path to the folder and the file name that holds the election results.
+
 
 A potential solution for the .csv file column order could look like this:
 
 ![Filter the header to determine the correct index for the county and candidate data in the .csv](Resources/Dynamic_header_filter.png)
 
 This set of filters will identify the correct index for the county and candidate columns, allowing for files whos columns may be in a different order.
+
 
 Both of these options will make the code more dynamic and useful for analyzing election results for other election audits.
