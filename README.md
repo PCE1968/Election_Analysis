@@ -21,20 +21,20 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 The analysis of the election show that:
 - There were 369,711 votes cast in the election.
 - The county turnout results were:
-    - Jefferson County accounted for 10.5% of the vote and 38,855 votes.
-    - Denver County accounted for 82.8% of the vote and 306,055 votes.
-    - Arapahoe County accounted for 6.7% of the vote and 24,801 votes.
+    - Jefferson County accounted for 10.5% of the vote with 38,855 votes.
+    - Denver County accounted for 82.8% of the vote with 306,055 votes.
+    - Arapahoe County accounted for 6.7% of the vote with 24,801 votes.
 - County with the largest Number of votes cast:
-    - Denver County accounted for 82.8% of the vote and 306,055 votes. 
+    - Denver County accounted for 82.8% of the vote with 306,055 votes. 
 - The candidate results were:
-    - Charles CVasper Stockham received 23.0% of the vote and 85,213 votes.
-    - Diana DeGette received 73.8% of the vote and 272,892 votes.
-    - Raymon Anthony Doane received 3.1% of the vote and 11,606 votes.
+    - Charles CVasper Stockham received 23.0% of the vote with 85,213 votes.
+    - Diana DeGette received 73.8% of the vote with 272,892 votes.
+    - Raymon Anthony Doane received 3.1% of the vote with 11,606 votes.
 - The winner of the election was:
-    - Diane DeGette received 73.8% of the vote and 272,892 votes.
+    - Diane DeGette received 73.8% of the vote with 272,892 votes.
 
  ## Election Audit Summary
-The results demonstrate that all of the requirements have been met. The total votes have been tabulated. The county turnout has been recorded for total votes cast and the percentage of total vote for each county. The candidate votes have also been tabulated and considered by percentage of total vote, and the election winner has been identified. Even though this code runs well as is, there are limitations. Any future election results will need to be added to teh same folder and the file name will need to match, in order for it to run on other election results. In addition, the file structure will also need to match the current column order of the .csv file. 
+The results demonstrate that all of the requirements have been met. The total votes have been tabulated. The county turnout has been recorded for total votes cast and the percentage of total vote for each county. The candidate votes have also been tabulated and considered by percentage of total vote, and the election winner has been identified. Even though this code runs well as is, there are limitations. Any future election results will need to be added to the same folder and the file name will need to match, otherwise the code will not run correctly. In addition, the file structure will also need to match the current column order of the .csv file. 
 
 ### Modification Options
 When considering file location as a limitation, a potenital solution could look something like this:
