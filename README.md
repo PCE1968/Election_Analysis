@@ -41,7 +41,7 @@ When considering file location as a limitation, a potenital solution could look 
 
 ![Prompt the user for folder location and file name](Resources/User_input_solution.png)
 
-This code prompts the user to provide the path to the folder and the file name that holds the election results.
+This code prompts the user to provide the path to the folder and the file name that holds the election results. Similar code could also be added for file storage.
 
 
 A potential solution for the .csv file column order could look like this:
