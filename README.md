@@ -34,7 +34,9 @@ The analysis of the election show that:
     - Diane DeGette received 73.8% of the vote and 272,892 votes.
 
  ## Election Audit Summary
-The code runs well as is, but is limited to the current folder path for the resource folder and the current column order of the .csv file. A potenital solution for the first issue could look something like this:
+The results demonstrate that all of the requirements have been met. The total votes have been tabulated. The county turnout has been recorded for total votes cast and the percentage of total vote for each county. The candidate votes have also been tabulated and considered by percentage of total vote, and the election winner has been identified. Even though this code runs well as is, there are limitations. Any future election results will need to be added to teh same folder and the file name will need to match, in order for it to run on other election results. In addition, the file structure will also need to match the current column order of the .csv file. 
+
+When considering file location as a limitation,  potenital solution could look something like this:
 
 ![Prompt the user for folder location and file name](Resources/User_input_solution.png)
 
@@ -46,4 +48,4 @@ A potential solution for the .csv file column order could look like this:
 
 This set of filters will identify the correct index for the county and candidate columns, allowing for files whos columns may be in a different order.
 
-Both of these solutions will make the code more dynamic and able to be useful for other election audits.
+Both of these options will make the code more dynamic and useful for analyzing election results for other election audits.
